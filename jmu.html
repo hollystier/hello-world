@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset = "UTF-8">
+        <title> JMU </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel ="stylesheet" href="stylesheet.css">
+        
+        <style>
+            body {
+                margin:0;
+            }
+            
+            .container {
+                display:grid;
+                grid-template-columns:repeat(2, 1fr);
+                grid-auto-rows:minmax(40px, auto);
+                grid-gap:0;
+                max-width:1440px;
+                margin:0 auto;
+            }
+            
+            nav {
+                grid-column:1/3;
+                grid-row:1/2;
+            }
+            nav ul {
+                list-style-type:none;
+                margin:0;
+                padding:0;
+                overflow:hidden;
+                background-color:#ffffff;
+            }
+            nav li {
+                float:right;
+            }
+            nav li a {
+                display:block;
+                color:black;
+                text-align:center;
+                padding:14px 16px;
+                text-decoration:none;
+                text-transform:uppercase;
+            }
+            nav li a:hover{
+                text-shadow:0 2px 2px rgba(0,0,0,0.24);
+                color:#c8a2c8;
+            }
+            
+            .logo {
+                grid-column:1/2;
+                grid-row:1/3;
+                display:flex;
+                justify-content:flex-start;
+                align-items:flex-start;
+                background-color:#ffffff;
+                padding-left:50px;
+                
+            }
+            .parallax {
+                grid-column:1/4;
+                grid-row: 2/3;
+                background-image: url('images/pagesheader.jpg');
+                
+                height: 200px;
+
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:cover;
+                
+                z-index: 1;
+            }
+            
+            .title {
+                grid-column:1/3;
+                background-color:#c8a2c8;
+            }
+            
+            .image1 {
+                grid-column:1/2;
+                background-color:#ffffff;
+            }
+            
+            section {
+                grid-column:2/3;
+                background-color:#ffffff;
+                text-indent:50px;
+            }
+            
+                      
+            .image2 {
+                grid-column:2/3;
+            }
+            
+            .section2 {
+                grid-column:1/2;
+            }
+            
+            footer {
+                grid-column:1/3;
+                background-color:#c8a2c8;
+            }
+        
+            .jmu {
+                grid-column:1/3;
+                grid-row:2/3;
+                z-index:100;
+                color: white;
+                font-family:'Open Sans', sans-serif;  
+                font-size:50px;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                text-transform:uppercase;
+                font-weight:700;
+            }
+            
+                          
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="links.html">Links</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+                    <li><a href="jmu.html">JMU</a></li>
+                    <li><a href="downtown.html"> Downtown</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul> 
+            </nav> 
+            <div class="logo">
+            <a href="index.html">
+            <img src="images/logo.png" alt="Logo">
+            </a>
+            </div>
+            
+            
+            <div class="parallax"> </div>
+            
+            <div class="title-cover"> 
+                <p>JMU</p> 
+            </div>
+            
+            
+            <div class="title"> 
+              <h1>Home of the Dukes</h1>
+            </div>
+                
+            <div class="image1"> 
+            <img src="images/jmustadium.jpg" alt="Stadium">
+            </div>
+            
+            <section class="indent">
+              <h1> History </h1>
+                
+                <p>James Madison University was priginally founded in 1908 as an all women's college by the Virginia General Assembly. Initially, it was named The State Normal and Industrial School for Women at Harrisonburg. The university's name was changed in 1914 to the State Normal School for Women at Harrisonburg. Initially the school was only able to provide what would now be the same as technical training or junior college courses. It wasn't until 1916 the school was able to award bachelor's degrees. The first campus plan only included the construction of six buildings.The university became the State Teachers College at Harrisonburg in 1924 and was later named Madison College in 1938 to honor James Madison, the fourth President of the United States. It wasn't until 1976 the university's name was officially known as James Madison University.</p>
+                
+                <p> The Virginia General Assembly made the university coeducational institution in 1966. JMU's fourth president was Ronald Carrier. While he was the president, student enrollment along with the number of faculty and staff tripled. Student life adn academics also began to blossom as national fraternities formed, doctoral programs were authorized, 20 campus buildings were constructed, and JMU was recognized as one of the finest institutions of in America. </p>
+                
+            </section>
+            
+            <div class="section2 indent">
+              <h1> The Dukes </h1>
+                <p> The JMU community has a lot to brag about. The Princeton Review recognized James Madison as one of 81 schools in America "with a conscience", and in 2006 ranked JMU second in the nation behind only the University of Virginia in the number of Peace Corps volunteers it sent from its student body among "medium-sized" universities. And in 2010, the food at JMU was ranked third in the United States.In 2011 the student body was ranked 20th "happiest in the entire nation" by Newsweek and The Daily Beast. These rankings take into consideration the surrounding area's activities, academics, as well as the social scene on campus.</p>
+                  
+                <p> In terms of academics, JMU offers 115 degree programs on the bachelor's, master's, educational specialist, and doctoral levels. The school has seven colleges and 78 academic programs: the College of Arts and Letters; the College of Business, the College of Education, the College of Health and Behavioral Studies, the College of Integrated Science and Engineering, the College of Science and Mathematics; the College of Visual and Performing Arts, and The Graduate School. Aside from academics, James Madison University also has over 350 clubs and organizations for students to choose from.</p>
+            </div>
+            
+            <div class="image2"> <img src="images/jmudukedog.jpg" alt="DukeDog">
+            </div>
+                       
+             <footer class="indent padding-footer">
+                 <p class="footer-style">Holly Stier | SMAD Interactive Design Student | <a href="mailto:hollystier8@gmail.com" style="color: white; text-decoration: none">hollystier8@gmail.com</a></p>
+            </footer> 
+            
+        </div> 
+    
+    </body>
+</html>
